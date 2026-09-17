@@ -5,7 +5,7 @@ async function main() {
   // Libs de terceiros dentro de um Code Robot só podem ser carregadas via
   // dynamic import — require() não funciona para pacotes NPM no runtime embutido.
   const { load } = await import("cheerio");
-  const trigger = process.env('roberty-trigger')
+  const trigger = process.env['roberty-trigger']
 
   console.log(`Tipo de execução ${trigger}`)
 
