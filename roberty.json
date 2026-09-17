@@ -1,3 +1,4 @@
 {
-  "entrypoint": "node src/index.js"
+  "entrypoint": "node src/index.js",
+  "exception": "node src/exception.js"
 }
