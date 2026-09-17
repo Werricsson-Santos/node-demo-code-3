@@ -13,6 +13,8 @@ async function main() {
   const title = $("h1").first().text().trim();
 
   console.log(`Título extraído: ${title}`);
+
+  throw new Error('Teste falha')
 }
 
 main().catch((error) => {
