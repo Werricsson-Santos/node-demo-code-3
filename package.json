@@ -1,0 +1,12 @@
+{
+  "name": "demo-code-3-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo: biblioteca externa (cheerio) dentro de um Code Robot",
+  "scripts": {
+    "roberty:start": "node src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
